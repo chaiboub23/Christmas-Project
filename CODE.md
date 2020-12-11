@@ -89,10 +89,6 @@ def on_button_pressed_b():
     music.play_tone(330, music.beat(BeatFraction.WHOLE))
     music.play_tone(349, music.beat(BeatFraction.WHOLE))
 input.on_button_pressed(Button.B, on_button_pressed_b)
-
-def on_forever():
-    basic.show_string("kanye")
-basic.forever(on_forever)
 ```
 ## Flashing onto Microbit
 You want to make sure to click on the download button. It will download a HEX file. You also wan to connect the Microbit using a usb cable. Next, you want to move the file onto the Microbit. Now you can use the Microbit in your design.
